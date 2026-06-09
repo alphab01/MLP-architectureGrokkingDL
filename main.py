@@ -42,3 +42,10 @@ for i in range(100):
     wd01 = l0.T.dot(l1d)
     we12 -= wd12 * a
     we01 -= wd01 * a
+  l0 = np.array([ 0,0,1,0,0,
+                  0,1,0,1,0,
+                  0,1,0,1,0,
+                  0,1,0,1,0,
+                  0,0,1,0,0])
+  l1 = relu(np.dot(l0, we01))
+print(np.dot(l1, we12))
