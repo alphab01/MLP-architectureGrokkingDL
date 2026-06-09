@@ -1,2 +1,6 @@
 import numpy as np
-print("hello world")
+
+def relu(x):
+  return (x > 0) * x
+def relu2deriv(ou):
+  return ou > 0
