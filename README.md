@@ -1,1 +1,1 @@
-Hello everyone! Today i again grokking deep learning(now i in sixth chapter) and Andrew Trask gived advice to train in making relu + multilayer model creating, and now my model in main.py. Original notebook in grokaem6honor.ipynb. Enjoy)
+
